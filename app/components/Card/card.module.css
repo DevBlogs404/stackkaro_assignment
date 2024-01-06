@@ -1,0 +1,52 @@
+.card {
+  width: 620px;
+  height: 268px;
+  border-radius: 25px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+.cardLogo {
+  width: 75px;
+  aspect-ratio: 1;
+}
+
+.cardTitle {
+  color: rgba(10, 86, 241, 1);
+  font-size: 22px;
+  font-weight: 600px;
+}
+.cardDescription {
+  color: rgba(54, 69, 79, 1);
+  font-size: 20px;
+  font-weight: 500px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .card {
+    min-width: 300px;
+    width: 100%;
+    height: 220px;
+    padding: 10px;
+    gap: 10px;
+  }
+  .cardLogo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .cardTitle {
+    font-size: 16px;
+    font-weight: 600px;
+    text-align: center;
+  }
+  .cardDescription {
+    font-size: 13px;
+    font-weight: 500px;
+  }
+}

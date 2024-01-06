@@ -1,0 +1,33 @@
+.infoStrip {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(10, 86, 241, 0.15) 0%,
+    rgba(255, 255, 255, 0.15) 52.6%,
+    rgba(10, 86, 241, 0.15) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.infoStripDescription {
+  max-width: 80%;
+  color: rgba(54, 69, 79, 1);
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .infoStrip {
+    padding: 20px;
+  }
+  .infoStripDescription {
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+}
